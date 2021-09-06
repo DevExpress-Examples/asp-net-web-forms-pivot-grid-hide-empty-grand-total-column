@@ -18,3 +18,12 @@ This example illustrates how to use the [ASPxPivotGrid.CustomFieldValueCells](ht
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs#L21-L31) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb#L21-L30))
 <!-- default file list end -->
+
+## Documentation
+
+* [Automatic Totals](https://docs.devexpress.com/AspNet/7307/components/pivot-grid/data-shaping/aggregation/totals#auto)
+
+## More Examples
+
+* [How to provide custom summary values for Total, Grand Total and ordinary cells](https://github.com/DevExpress-Examples/how-to-provide-custom-summary-values-for-total-grand-total-and-ordinary-cells-e2592)
+* [CustomFieldValueCells: Hide rows or columns with Grand Total values equal to 0](https://github.com/DevExpress-Examples/customfieldvaluecells-hide-rows-or-columns-with-grand-total-values-equal-to-0-e4085)
