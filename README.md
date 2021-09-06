@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # ASP.NET Web Forms Pivot Grid - How to Hide an Empty Grand Total Column
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128577519/)**
-<!-- run online end -->
 
 This example illustrates how to use the [ASPxPivotGrid.CustomFieldValueCells](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.CustomFieldValueCells) event to hide an empty [Grand Total](https://docs.devexpress.com/AspNet/3595/components/pivot-grid/ui-elements/grand-totals) column.
 
