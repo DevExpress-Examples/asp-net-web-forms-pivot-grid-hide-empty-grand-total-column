@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # How to hide an empty Grand Total column
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e3957/)**
+**[[Run Online]](https://codecentral.devexpress.com/128577519/)**
 <!-- run online end -->
 
 
