@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web.ASPxPivotGrid" TagPrefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -13,15 +13,22 @@
     <form id="form1" runat="server">
     <div>
         <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" 
-            DataSourceID="AccessDataSource1" OnCustomFieldValueCells="ASPxPivotGrid1_CustomFieldValueCells">
+            DataSourceID="AccessDataSource1" OnCustomFieldValueCells="ASPxPivotGrid1_CustomFieldValueCells" ClientIDMode="AutoID" IsMaterialDesign="False">
             <Fields>
-                <dx:PivotGridField ID="fieldCategoryName" Area="RowArea" AreaIndex="0" FieldName="CategoryName">
+                <dx:PivotGridField ID="fieldCategoryName" Area="RowArea" AreaIndex="0">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="CategoryName" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="1" FieldName="ProductName">
+                <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="ProductName" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
             </Fields>
             <OptionsView ShowColumnHeaders="False" ShowDataHeaders="False" 
                 ShowFilterHeaders="False" />
+            <OptionsData DataProcessingEngine="Optimized" />
             <Styles>
                 <ColumnAreaStyle>
                     <Paddings Padding="0px" />
