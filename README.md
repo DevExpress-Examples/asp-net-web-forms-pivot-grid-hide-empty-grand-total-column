@@ -9,8 +9,7 @@ This example illustrates how to use the [ASPxPivotGrid.CustomFieldValueCells](ht
 
 ![Hidden grand total column in ASPxPivotGrid](https://user-images.githubusercontent.com/20167812/132218652-09cc457b-d63b-4277-b4d0-e91c85fcaae4.png)
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs#L21-L31) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb#L21-L30))
