@@ -25,7 +25,7 @@ This example illustrates how to use the [ASPxPivotGrid.CustomFieldValueCells](ht
 * [How to provide custom summary values for Total, Grand Total and ordinary cells](https://github.com/DevExpress-Examples/how-to-provide-custom-summary-values-for-total-grand-total-and-ordinary-cells-e2592)
 * [CustomFieldValueCells: Hide rows or columns with Grand Total values equal to 0](https://github.com/DevExpress-Examples/customfieldvaluecells-hide-rows-or-columns-with-grand-total-values-equal-to-0-e4085)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-pivot-grid-hide-empty-grand-total-column&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-pivot-grid-hide-empty-grand-total-column&~~~was_helpful=no)
 
